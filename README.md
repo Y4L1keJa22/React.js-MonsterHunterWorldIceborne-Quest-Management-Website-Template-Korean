@@ -5,6 +5,25 @@
 필수 준비:
 1. https://drive.google.com/drive/folders/1oKAd_IMWq_23g9Oc8nLrxBBQwT8FVQZK?usp=sharing
    이를 접속하여 전체 폴더(node_modules 드롭다운 -> Download)를 다운로드하고 public,src, README.md ... 등 파일들 옆에 옮기기
+2. NOTE: 모든 폴더 및 파일은 다운로드해야 됩니다.
+   
+폴더 구조 예시:
+my-vite-project/       //부모 디렉토리
+├── public/                
+│   └── favicon.ico         
+├── src/                   
+│   ├── assets/           
+│   ├── components/         
+│   ├── App.jsx/tsx       
+│   └── main.jsx/tsx        
+├── node_modules/
+│   ├── .bin/           
+│   ├── .vite/         
+│   ├── aria-hidden/      
+│   └── bootstrap/              
+├── index.html              
+├── package.json           
+└── vite.config.js         
 
 실행 방법:
 1. 부모 디렉터리(src 디렉터리보다 한층 위)를 접속하여 "npm run dev" 실행
