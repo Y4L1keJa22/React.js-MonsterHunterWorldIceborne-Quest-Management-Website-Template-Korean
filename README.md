@@ -1,32 +1,13 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite를 기반으로 "Monster Hunter World:Iceborne"을 배경으로 한 퀘스트 관리 앱
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+가천대학교 글로벌 캠퍼스에서, 컴퓨터공학부 2학년 2학기에 고급웹프로그래밍 강의를 수강하면서 학기말에 개발하여 제출한 프로젝트입니다.
 
-Currently, two official plugins are available:
+실행 방법:
+1. 부모 디렉터리(src 디렉터리보다 한층 위)를 접속하여 "npm run dev" 실행
+2. 제공한 Local URL를 복사하여 브라우저에 붙여놓기해서 접속 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+제작일: 2025-12월-20일 19시
 
-## React Compiler
+최근 수정일: 2026-12월-20일 16:00시
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+연락처: stasishat06@gmail.com
