@@ -34,6 +34,7 @@ my-vite-project/       //부모 디렉토리
 
 
 
+실행 예시:
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/ee1dc787-ad40-425e-a323-42d346243b90" />
 
 
